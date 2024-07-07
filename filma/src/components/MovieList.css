@@ -1,0 +1,36 @@
+.movie-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.movie-poster {
+  margin-right: 10px;
+  flex-shrink: 0;
+  width: 200px; 
+  height: 300px; 
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.movie-poster img:hover {
+  transform: scale(1.1);
+}
+
+.ant-btn {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
