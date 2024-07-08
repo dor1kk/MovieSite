@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.alphacoders.com/676/thumb-1920-676781.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(200, 100%, 8%, 0.8);
+    background-blend-mode: overlay;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: hsla(0, 0%, 98%, 0.85);
+
+ 
+
+}
+
+h2 {
+    text-align: center;
+    color: #1b31d6;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+     color: #1b31d6;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #1b31d6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.psw {
+    float: left;
+    font-size: 14px;
+}
+
+.register {
+    float: right;
+    font-size: 14px;
+}
+
+.register a,
+.psw a {
+    text-decoration: none;
+    color: #1b31d6;;
+}
+
+.register a:hover,
+.psw a:hover {
+    text-decoration: underline;
+}

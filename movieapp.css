@@ -1,0 +1,630 @@
+/* Base styles (unchanged) */
+body {
+    background-color: black;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+header ul li {
+    list-style: none;
+    padding: 6px 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    background-color: rgb(184, 0, 31);
+    border-radius: 14px;
+}
+
+header ul li a select {
+    appearance: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 0%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    outline: 0;
+    background: transparent;
+    border: 0;
+    color: white;
+}
+
+header ul li a select option {
+    color: black;
+}
+
+header .menu-toggle{
+    display: none;
+}
+.butonat ul li button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.searchForm{
+    margin-left: 250px;
+}
+
+.searchForm input{
+    padding: 8px;
+    opacity: 0.6;;
+}
+
+.searchForm button{
+    padding: 8px;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.searchForm button:hover{
+   
+    opacity: 1;
+}
+
+
+.user{
+    display: flex;
+    margin-left:45px; 
+    justify-content:center; 
+    border-radius:30px;  
+    align-items:center; 
+    background:white; 
+    height:5px; 
+    padding:15px;
+     opacity:0.7
+}
+
+ul li i{
+    color:black; 
+    margin-right:20px
+}
+
+header ul li h2{
+    color: black;
+     display:none;
+      text-transform:capitalize; 
+      opacity:0.7; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Example styles (you can adjust based on your design) */
+    body {
+        font-size: 14px;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul li {
+        padding: 10px 0;
+    }
+}
+
+
+.projekt {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.imgsrc {
+    width: 1258px;
+    height: 700px;
+    margin-bottom: 40px;
+    position: relative;
+    opacity: 0.3;
+}
+
+#searchbtn {
+    width: 40px;
+    padding: 5px;
+    margin-left: -10px;
+    background: transparent;
+    box-shadow: 0 0 10px white;
+    color: white;
+    cursor: pointer;
+}
+
+.butonat {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1000px;
+    padding: 0px;
+}
+
+#the-button {
+    margin-top: 400px;
+    position: absolute;
+    margin-right: 800px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    transition: transform .2s;
+    color: white;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+.favorite {
+    margin-top: 400px;
+    position: absolute;
+    margin-right: 800px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    float: inline-end;
+    cursor: pointer;
+}
+
+.butonat ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.butonat ul li {
+    list-style: none;
+    margin-left: 180px;
+}
+
+.titulli {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.wallpaper {
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+    margin-right: 650px;
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    width: auto;
+    height: 300p;
+}
+
+.viti {
+    color: white;
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 315px;
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    width: auto;
+    height: 300p;
+}
+
+.vitid {
+    color: white;
+    position: absolute;
+    margin-right: 425px;
+    margin-top: 315px;
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    width: auto;
+    height: 300p;
+}
+
+.anje {
+    color: white;
+    position: absolute;
+    margin-right: 640px;
+    margin-top: 510px;
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    width: auto;
+    height: 300p;
+}
+
+.imdb {
+    color: white;
+    position: absolute;
+    margin-right: 850px;
+    margin-top: 315px;
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    width: auto;
+    height: 300p;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+.imdb a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.ylli {
+    margin-left: 10px;
+    color: yellow;
+}
+
+.sezoni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+}
+
+.sezoni {
+    margin-right: 850px;
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sezonik {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.sezoninr {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'LucidaSans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.gott {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 550px;
+    transition: transform .2s;
+    margin-right: 428px;
+    z-index: 3;
+}
+
+.gott img {
+    margin: 10px;
+    border-width: 1px;
+    border-radius: 20px;
+    opacity: 0.7;
+    box-shadow: 2px 4px #faeeee;
+    
+}
+
+.gott a:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+
+
+/* CSS for Modal */
+/* Background overlay */
+/* Background overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+  }
+  
+  /* Modal */
+  .modali {
+    display: none;
+    position: fixed;
+    z-index: 1000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    text-align: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 200px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(200, 100%, 8%, 0.8);
+    background-blend-mode: overlay;
+   
+  }
+  
+  .modal-content {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content h3{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  
+
+  .modal-content .buttons{
+    margin-top: 40px;
+  }
+
+  .modal-content button{
+    width: 100px;
+    padding: 8px;
+  }
+
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+  
+  
+
+
+nav {
+    width: 100%;
+    padding-left: 300px;
+    margin-top: 30px;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1481018085669-2bc6e4f00eed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    max-width: 970px;
+}
+
+#quote,
+#person {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    color: white;
+    font-style: italic;
+}
+
+#person {
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+nav h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -60px;
+    margin-left: 180px;
+    padding-top: 40px;
+    margin-bottom: 120px;
+}
+
+#new-quote {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.movies {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: transform .2s;
+    cursor: pointer;
+    gap: 15px;
+}
+
+.movies img {
+    width: auto;
+    height: 370px;
+    border-radius: 30px;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+.modal
+ {
+    position: absolute;
+    width: 270px;
+    height: 400px;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    visibility: hidden;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.modal:hover {
+    visibility: visible;
+}
+
+.movies h1 {
+    padding-top: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: brightness(120%);
+}
+
+.movies p {
+    padding: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 80px;
+}
+
+#play {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+#play:hover {
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
+
+#watchLater {
+    background-color: white;
+    color: black;
+    border: 0;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+#watchLater:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#favorites {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+#favorites:hover {
+    background-color: white;
+    color: red;
+}
+
+
+
+/* ... (other styles) ... */
+
+p {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(147, 3, 3);
+    margin-top: 100px;
+}
+
+.newpage {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 470px;
+    margin-right: auto;
+}
+
+.newpage button {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 10px white;
+    cursor: pointer; /* Added cursor: pointer */
+}
+
+.newpage button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.newpage button:focus{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
